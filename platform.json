@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/p3p/pio-nxplpc-arduino-lpc176x.git"
+    "url": "https://github.com/Paciente8159/pio-nxplpc-arduino-lpc176x.git"
   },
   "version": "0.1.0",
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json",
-    "https://raw.githubusercontent.com/p3p/pio-nxplpc-arduino-lpc176x/master/manifest.json"
+    "https://raw.githubusercontent.com/Paciente8159/pio-nxplpc-arduino-lpc176x/master/manifest.json"
   ],
   "frameworks": {
     "arduino": {
-      "package": "framework-arduino-lpc176x",
+      "package": "pio-framework-arduino-lpc176x",
       "script": "builder/frameworks/arduino-lpc176x.py"
     }
   },
@@ -29,7 +29,7 @@
       "type": "toolchain",
       "version": ">=1.60301.0"
     },
-    "framework-arduino-lpc176x": {
+    "pio-framework-arduino-lpc176x": {
       "type": "framework",
       "optional": true,
       "version": "0.1.3"
